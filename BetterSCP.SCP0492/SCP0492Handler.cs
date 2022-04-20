@@ -44,7 +44,7 @@ namespace Mistaken.BetterSCP.SCP0492
 
             this.CallDelayed(2, () =>
             {
-                ev.Player.Role = RoleType.Scp0492;
+                ev.Player.Role.Type = RoleType.Scp0492;
                 ev.Player.Position = info.pos;
                 this.CallDelayed(5, () =>
                 {
